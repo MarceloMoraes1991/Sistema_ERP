@@ -437,11 +437,11 @@ CREATE TABLE IF NOT EXISTS `backup_historico` (
 -- ============================================================
 INSERT IGNORE INTO `perfil_usuario` (`cod`,`nome`) VALUES (1,'Administrador'),(2,'Utilizador Padrão');
 
-DELETE FROM `usuario` WHERE `email` = 'moraes.marcelo.tic@gmail.com';
+DELETE FROM `usuario` WHERE `email` = 'admin@admin.com';
 INSERT INTO `usuario` (`nome`, `email`, `senha`, `perfil_cod`)
 VALUES (
-  'Marcelo Moraes',
-  'moraes.marcelo.tic@gmail.com',
+  'Administrador',
+  'admin@admin.com',
   '82f9fa29d86dae71395f7fc9ef23fe5f',
   1
 );
