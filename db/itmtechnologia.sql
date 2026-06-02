@@ -430,7 +430,7 @@ CREATE TABLE IF NOT EXISTS `backup_historico` (
 -- ============================================================
 -- UTILIZADOR MASTER
 -- ============================================================
--- E-mail : moraes.marcelo.tic@gmail.com
+-- E-mail : admin@admin.com
 -- Senha  : Admin@2025  (MD5)
 -- Perfil : Administrador
 -- ⚠️ Altere a palavra-passe após o primeiro acesso!
